@@ -1,5 +1,7 @@
 class Solution(object):
+    """
     def recurStrComp(self, s1, s2):
+        # Used in 5th approach
         try:
             assert s1 == s2
             return min(len(s1), len(s2))
@@ -9,15 +11,15 @@ class Solution(object):
                 return self.recurStrComp(s1[0:x], s2[0:x])
             else:
                 return x
-    
+    """
     def longestCommonPrefix(self, strs):
         """
         :type strs: List[str]
         :rtype: str
         """
         # 2021.03.11
-        # 1st: naive solution
-        """
+        # 1st: naive solution = 7th & 8th submission
+        
         n = len(strs)
         pf_len_max = 1000 # max prefix length
         prefix = ''
@@ -31,8 +33,8 @@ class Solution(object):
             except:
                 break
         return prefix
-        """
         
+        """
         # 5th solution: intend to save memory allocation (improvement of 1st)
         # Expected: time complexity O(n*m) -> O(n), space complexity O(m) -> O(1)
         n = len(strs)
@@ -59,6 +61,32 @@ class Solution(object):
             except:
                 return ''
         return prefix[0: ii]
-        
+        """
         # The 1st approach runtime ~ 16ms (95%!!), memory 13.8 MB (40%);
         # whereas the 5th approach runtime ~ 24ms (59%), memory 13.7 MB (68%).
+        
+        # 6th approach:
+        """
+        n = len(strs)
+        pf_len_max = 1000 # max prefix length
+        prefix = ''
+        for s in strs:
+            pf_len_max = min(pf_len_max, len(s))
+        for j in range(pf_len_max):
+            try:
+                c0 = strs[0][j]
+                assert all( [strs[i][j] == c0 for i, c \
+                             in enumerate(strs) if i < n] )
+                prefix += c0
+            except:
+                break
+        return prefix
+        """
+        # The 6th gets the worst results:
+        # runtime ~24 ms (59%) and memory ~14 MB (13%)!!
+        
+        # The 8th submission: even better than the 1st submission!
+        # runtime 16 ms (95%), memory 13.7 MB (68%)
+        
+        
+        
