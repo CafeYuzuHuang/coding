@@ -45,3 +45,10 @@ class Solution(object):
         return dumped.next
         # other choice: apply recursive solution
         
+        # Note:
+        # return dumped -> [None, a, b, c, ...]
+        # return dumped.next -> [a, b, c, ...] (expected answer)
+        # return dumped.next.next -> [b, c, ...]
+        # return cur -> two values
+        # return cur.next -> one value
+        
