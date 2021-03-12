@@ -39,7 +39,57 @@ class Solution(object):
             elif right < 0: # and left < 0
                 m += n
                 n = len(nums[m:]) // 2 # close to the tail
+                
+        # 4th solution: standard binary search, time complexity O(logN)
+        """
+        # edge cases: note the order cannot be changed
+        try:
+            assert nums != []
+            assert nums[0] < target
+        except:
+            return 0
+        try: 
+            assert nums[-1] >= target
+        except:
+            return len(nums)
+        try:
+            assert len(nums) != 2
+        except:
+            return 1 # squeezed
+        
+        low = 0
+        high = len(nums) - 1
+        while low <= high:
+            mid = (low + high) // 2
+            if nums[mid] == target:
+                return mid
+            elif nums[mid] > target:
+                high = mid - 1
+            elif nums[mid] < target:
+                low = mid + 1
+        # crossed, i.e. low > high
+        return low # deal with the insertion
+        """
+        
+        # 5th solution: standard binary search, time complexity O(logN)
+        # no edge cases testing
+        """
+        low = 0
+        high = len(nums) - 1
+        while low <= high:
+            mid = (low + high) // 2
+            if nums[mid] == target:
+                return mid
+            elif nums[mid] > target:
+                high = mid - 1
+            elif nums[mid] < target:
+                low = mid + 1
+        # crossed, i.e. low > high
+        return low # deal with the insertion
+        """
+        
         # 1st solution runtime 32 ms (84%), memory 14 MB (83%)
         # 3rd solution runtime 32 ms (84%), memory 14.1 MB (83%)
-        # Note that the standard binary search may fail in this problem
+        # 4th solution runtime 36 ms (61%), memory 14 MB (83%)
+        # 5th solution runtime 36 ms (61%), memory 14.2 MB
         
