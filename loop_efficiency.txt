@@ -1,0 +1,5 @@
+Use timeit module to compare different loop methods: refer to
+https://www.blog.duomly.com/loops-in-python-comparison-and-performance/
+
+To save memory: use generator!
+https://medium.com/analytics-vidhya/how-to-write-memory-efficient-loops-in-python-cd625001f0de
