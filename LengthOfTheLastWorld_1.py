@@ -21,7 +21,7 @@ class Solution(object):
         
 class RevIter:
     def __init__(self, val, start):
-        """ Set start value for the reverse generator """
+        """ Set start value for the reverse iterator """
         self.val = val
         self.start = start
         self.count = start
