@@ -56,8 +56,8 @@
   - simulate the ADD algorithm, O(N) time complexity
   
 67. Add Binary: https://leetcode.com/problems/add-binary/
-  - 
-  
-  
+  - induction method, character operation
+  - use binary - integer decimal interconversion (if overflow issue does not matter)
+  - short-cut method, one line statement (for python only)
   
 
