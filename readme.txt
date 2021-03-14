@@ -51,6 +51,13 @@
   - reverse iteration
   - forward generator
 
-
+66. Plus one: https://leetcode.com/problems/plus-one/
+  - naive: use dtype conversion and mathematical operation, O(N) time complexity
+  - simulate the ADD algorithm, O(N) time complexity
+  
+67. Add Binary: https://leetcode.com/problems/add-binary/
+  - 
+  
+  
   
 
