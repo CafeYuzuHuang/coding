@@ -60,4 +60,14 @@
   - use binary - integer decimal interconversion (if overflow issue does not matter)
   - short-cut method, one line statement (for python only)
   
+69. Sqrt(x): https://leetcode.com/problems/sqrtx/
+  - brute force
+  - short cut
+  - Newton-Raphson (implicit)
+  - Newton-Raphson (explicit)
+  - binary search
+  
+
+  
+
 
