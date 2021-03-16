@@ -82,6 +82,7 @@
     (r.f.: https://leetcode.com/problems/same-tree/solution/ )
 
 101. Symmetric Tree: https://leetcode.com/problemset/all/?status=Todo&difficulty=Easy
-  - 
+  - iterative
+  - recursive
 
 
