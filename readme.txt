@@ -71,4 +71,17 @@
   - induction method: brute force, Fibonacci, or dynamic programming
   
 83. Remove Duplicates from Sorted List: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+  - naive, time complexity O(N)
+  
+88. Merge Sorted Array: https://leetcode.com/problems/merge-sorted-array/
+  - naive, time complexity O(N), N = m+n
+  
+100. Same Tree: https://leetcode.com/problems/same-tree/
+  - recursive, time complexity O(N), space complexity O(logN) to O(N)
+  - iterative, time complexity O(N), space complexity O(logN) to O(N)
+    (r.f.: https://leetcode.com/problems/same-tree/solution/ )
+
+101. Symmetric Tree: https://leetcode.com/problemset/all/?status=Todo&difficulty=Easy
   - 
+
+
