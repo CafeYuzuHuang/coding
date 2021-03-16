@@ -67,7 +67,8 @@
   - Newton-Raphson (explicit)
   - binary search
   
-
+70. Climbing Stairs: https://leetcode.com/problems/climbing-stairs/
+  - induction method: brute force, Fibonacci, or dynamic programming
   
-
-
+83. Remove Duplicates from Sorted List: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+  - 
