@@ -48,3 +48,9 @@ class Solution(object):
         # 2nd solution: 16 ms (77%) and 13.4 MB (41%)
         # 3rd solution: 20 ms (46%) and 13.3 MB (91%)
         
+        # Note:
+        # Time complexity and space complexity:
+        # Recursion: O(2^n), O(1) ... 1st solution
+        # Iteration: O(N), O(1) ... 2nd solutions
+        # Iteration: O(N), O(N) ... 3rd solutions
+        # 1st is identified as brute force approach, 2nd is Fibonacci series, 3rd is dynamic programming!
