@@ -50,7 +50,8 @@ class Solution(object):
         
         # Note:
         # Time complexity and space complexity:
-        # Recursion: O(2^n), O(1) ... 1st solution
-        # Iteration: O(N), O(1) ... 2nd solutions
-        # Iteration: O(N), O(N) ... 3rd solutions
-        # 1st is identified as brute force approach, 2nd is Fibonacci series, 3rd is dynamic programming!
+        # 1st (recursive; brute force): O(2^n), O(1)
+        # 2nd (iterative, Fibonacci): O(N), O(1)
+        # 3rd (iterative, DP): O(N), O(N)
+        
+        
