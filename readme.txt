@@ -69,6 +69,7 @@
   
 70. Climbing Stairs: https://leetcode.com/problems/climbing-stairs/
   - induction method: brute force, Fibonacci, or dynamic programming
+  - model solution: see https://leetcode.com/problems/climbing-stairs/solution/
   
 83. Remove Duplicates from Sorted List: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
   - naive, time complexity O(N)
