@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: int
         """
         # 2021.03.16
-        # 1st solution: induction & recursion
+        # 1st solution: induction & recursion (brute force)
         # n = 1  2  3  4  5  6 ...
         # x = 1  2  3  5  8  13 ...
         #          # of two-steps # of ways 
@@ -22,7 +22,7 @@ class Solution(object):
         """
         
         # 2nd solution: The 1st solution cause time limit exception
-        # Here we use another methods
+        # Here we use another methods (Fibonacci number)
         """
         if n <= 2:
             return n
@@ -35,7 +35,7 @@ class Solution(object):
         return x
         """
         
-        # 3rd solution: use prefix sum
+        # 3rd solution: use dynamic programming
         if n <= 2:
             return n
         A = [0]*n
