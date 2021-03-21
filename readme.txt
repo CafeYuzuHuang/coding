@@ -1,4 +1,4 @@
-索引：
+索引：請使用 Ctrl+F 搜尋關鍵字
 
 1. Two Sum: https://leetcode.com/problems/two-sum/
   - brute force: time O(N^2), space O(1) (unsorted) or O(N) (sorted)
@@ -108,7 +108,17 @@
 112. Path Sum: https://leetcode.com/problems/path-sum/
   - iterative
 
+118. Pascal's Triangle: https://leetcode.com/problems/pascals-triangle/
+  - iterative: dynamic programming, time complexity O(n^2), space complexity O(n), n is # of rows
+    with mapping and lambda expression: https://blog.csdn.net/coder_orz/article/details/51589254
+  - recursive + iterative model solution (recursive for computing factorial)
 
+119. Pascal's Triangle II: https://leetcode.com/problems/pascals-triangle-ii/
+  - recursive + iterative model solution (recursive for computing factorial)
+  - recursive / dynamic programming
+  
+121. Best Time to Buy and Sell Stock: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+  
 
 
   
