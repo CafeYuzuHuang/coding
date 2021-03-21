@@ -97,6 +97,18 @@
   - recursion / divide-and-conquer / binary search: time complexity O(n), space complexity O(logn), both get PR = 100%
   Refer to: https://zxi.mytechroad.com/blog/tree/leetcode-108-convert-sorted-array-to-binary-search-tree/
   
+110. Balanced Binary Tree: https://leetcode.com/problems/balanced-binary-tree/
+  - recursive, post-order DFS: https://leetcode.com/problems/balanced-binary-tree/discuss/1116838/Python-PostOrder
+  time complexity O(N), space complexity O(h_max), where N is # of nodes and h_max is the max depth
+
+111. Minimum Depth of Binary Tree: https://leetcode.com/problems/minimum-depth-of-binary-tree/
+  - iterative
+  - recursive: https://ithelp.ithome.com.tw/articles/10213282
+  
+112. Path Sum: https://leetcode.com/problems/path-sum/
+  - iterative
+
+
 
 
   
