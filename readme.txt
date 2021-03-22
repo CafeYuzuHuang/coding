@@ -123,7 +123,20 @@
   - one-pass, time complexity O(N) https://leetcode.com/problems/best-time-to-buy-and-sell-stock/solution/
 
 122. Best Time to Buy and Sell Stock II: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
-  - 
+  - dynamic programming: time complexity O(N), space complexity O(N)
+  
+125. Valid Palindrome: https://leetcode.com/problems/valid-palindrome/
+  - naive, time complexity O(N), space complexity O(1) or O(N)
+  
+136. Single Number: https://leetcode.com/problems/single-number/
+  - brute force, time complexity O(N^2), space complexity O(1)
+  - hash table: time complexity O(N), space complexity O(N)
+  - model solution: time complexity O(N), space complexity O(1) !!  https://leetcode.com/problems/single-number/solution/
+  
+141. Linked List Cycle: https://leetcode.com/problems/linked-list-cycle/
+  
+
+
   
 
 
