@@ -151,8 +151,11 @@
   - brute force: O(N^2), not implemented
   
 168. Excel Sheet Column Title: https://leetcode.com/problems/excel-sheet-column-title/
-  - 
+  - iterative and recursive solutions, both with time and space complexity O(logN)
 
+169. Majority Element: https://leetcode.com/problems/majority-element/
+  - math trick with one-pass, time complexity O(N), space complexity O(1)
+  
 
 
 
