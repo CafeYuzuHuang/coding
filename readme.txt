@@ -136,8 +136,12 @@
 141. Linked List Cycle: https://leetcode.com/problems/linked-list-cycle/
   See https://blog.csdn.net/coder_orz/article/details/51516558
 
-
+155. Min Stack: https://leetcode.com/problems/min-stack/
+  - One-pass solution, time complexity O(1), space O(N)
+  See https://www.coderbridge.com/@ninja-ja/889274a4faa84b639d8e239eed6acb16
   
+160. Intersection of Two Linked Lists: https://leetcode.com/problems/intersection-of-two-linked-lists/
+  - 
 
 
 
