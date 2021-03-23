@@ -145,6 +145,12 @@
   See https://medium.com/@ChYuan/leetcode-no-160-intersection-of-two-linked-lists-%E5%BF%83%E5%BE%97-10a32c1ac8a8
 
 167. Two Sum II - Input array is sorted: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+  - single dictionary comprehension: r.f. problem 1
+  - two-pointer approach: time complexity O(N), space complexity O(1)
+  - binary search combined with for-loop scanning: time complexity O(NlogN), not implemented
+  - brute force: O(N^2), not implemented
+  
+168. Excel Sheet Column Title: https://leetcode.com/problems/excel-sheet-column-title/
   - 
 
 
