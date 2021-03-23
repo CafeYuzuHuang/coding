@@ -25,11 +25,7 @@ class MinStack(object):
         :rtype: None
         """
         self.stack.pop()
-        r = self.min_rec.pop()
-        try:
-            assert len(self.min_rec) > 0
-        except:
-            self.cur_min = None # reset to default
+        self.min_rec.pop()
         return None
     
     def top(self):
@@ -53,5 +49,5 @@ class MinStack(object):
 # param_3 = obj.top()
 # param_4 = obj.getMin()
 
-
-# Run time 56 ms (55%), memory 17.1 MB (100%)
+# Note: all operations are O(1) time complexity, including list.appned() and list.pop(-1).
+# Run time 44 ms (97%), memory 17.1 MB (100%) !!!
