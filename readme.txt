@@ -141,9 +141,11 @@
   See https://www.coderbridge.com/@ninja-ja/889274a4faa84b639d8e239eed6acb16
   
 160. Intersection of Two Linked Lists: https://leetcode.com/problems/intersection-of-two-linked-lists/
+  - Naive, time complexity O(N), space complexity O(1)
+  See https://medium.com/@ChYuan/leetcode-no-160-intersection-of-two-linked-lists-%E5%BF%83%E5%BE%97-10a32c1ac8a8
+
+167. Two Sum II - Input array is sorted: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
   - 
-
-
 
 
 
