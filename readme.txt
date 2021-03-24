@@ -162,9 +162,11 @@
 172. Factorial Trailing Zeroes: https://leetcode.com/problems/factorial-trailing-zeroes/
   - model solution, time complexity O(logn), space complexity O(1)
   
-175. Combine Two Tables: https://leetcode.com/problems/combine-two-tables/ *This is a SQL query problem
-176. Second Highest Salary: https://leetcode.com/problems/second-highest-salary/ *This is a SQL query problem
-181. Employees Earning More Than Their Managers: https://leetcode.com/problems/employees-earning-more-than-their-managers/ *This is a SQL query problem
+175 - 197 are SQL query problems:
+175. Combine Two Tables: https://leetcode.com/problems/combine-two-tables/
+176. Second Highest Salary: https://leetcode.com/problems/second-highest-salary/
+181. Employees Earning More Than Their Managers: https://leetcode.com/problems/employees-earning-more-than-their-managers/
+182. Duplicate Emails: https://leetcode.com/problems/duplicate-emails/
 
 
 
