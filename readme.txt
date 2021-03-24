@@ -156,6 +156,16 @@
 169. Majority Element: https://leetcode.com/problems/majority-element/
   - math trick with one-pass, time complexity O(N), space complexity O(1)
   
+171. Excel Sheet Column Number: https://leetcode.com/problems/excel-sheet-column-number/
+  - naive
+
+172. Factorial Trailing Zeroes: https://leetcode.com/problems/factorial-trailing-zeroes/
+  - model solution, time complexity O(logn), space complexity O(1)
+  
+
+
+
+
 
 
 
