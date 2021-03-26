@@ -170,15 +170,26 @@
 183. Customers Who Never Order: https://leetcode.com/problems/customers-who-never-order/
 
 190. Reverse Bits: https://leetcode.com/problems/reverse-bits/
-  - iterative (math operation)
+  - naive / iterative (math operation)
   - mask-and-shift: https://leetcode.com/problems/reverse-bits/solution/
   -> Far faster than iterative solution!
 
 191. Number of 1 Bits: https://leetcode.com/problems/number-of-1-bits/
-  - 
+  - naive / data type conversion and counting
+  - naive / iterative with bit operation
 
+193 and 195 are BASH problems:
+193. Valid Phone Numbers: https://leetcode.com/problems/valid-phone-numbers/
+195. Tenth Line: https://leetcode.com/problems/tenth-line/
 
+196 and 197 are MySQL query problems:
+196. Delete Duplicate Emails: https://leetcode.com/problems/delete-duplicate-emails/
+197. Rising Temperature: https://leetcode.com/problems/rising-temperature/
 
+202. Happy Number: https://leetcode.com/problems/happy-number/
+  - math induction to reduct computing time
+
+203. 
 
 
 
