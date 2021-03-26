@@ -162,12 +162,22 @@
 172. Factorial Trailing Zeroes: https://leetcode.com/problems/factorial-trailing-zeroes/
   - model solution, time complexity O(logn), space complexity O(1)
   
-175 - 197 are SQL query problems:
+175 - 183 are SQL query problems:
 175. Combine Two Tables: https://leetcode.com/problems/combine-two-tables/
 176. Second Highest Salary: https://leetcode.com/problems/second-highest-salary/
 181. Employees Earning More Than Their Managers: https://leetcode.com/problems/employees-earning-more-than-their-managers/
 182. Duplicate Emails: https://leetcode.com/problems/duplicate-emails/
 183. Customers Who Never Order: https://leetcode.com/problems/customers-who-never-order/
+
+190. Reverse Bits: https://leetcode.com/problems/reverse-bits/
+  - iterative (math operation)
+  - mask-and-shift: https://leetcode.com/problems/reverse-bits/solution/
+  -> Far faster than iterative solution!
+
+191. Number of 1 Bits: https://leetcode.com/problems/number-of-1-bits/
+  - 
+
+
 
 
 
