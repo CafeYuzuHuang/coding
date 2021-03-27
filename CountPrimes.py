@@ -89,6 +89,7 @@ class Solution:
         
         # 5th solution: r.f. https://www.geeksforgeeks.org/sieve-of-eratosthenes/
         # 使用艾氏篩，或稱為質數篩
+        """
         return 0 if n < 3 else self.SieveEratosthenes(n-1)
         
     def SieveEratosthenes(self, n):
@@ -102,10 +103,26 @@ class Solution:
                     prime[i] = 0
             p += 1
         return sum(prime)
+        """
+        
+        # 6th solution: optimized
+        if n < 3: return 0
+        prime = [1 for i in range(n)]
+        prime[0] = False
+        prime[1] = False
+        p = 2
+        while (p*p < n):
+            if (prime[p] == True):
+                for i in range(p*p, n, p):
+                    prime[i] = 0
+            p += 1
+        return sum(prime)
+        
         
         # 1st solution: time limit exceed
         # 2nd solution: 5268 ms (5%), 27.6 MB (49%)
         # 3rd solution: 4488 ms (7%), 25.5 MB (92%)
         # 4th solution: 2756 ms (12%), 25.5 MB (92%)
         # 5th solution: 472 ms (72%), 34.9 MB (35%)
+        # 6th solution: 480 ms (71%), 29 MB (40%)
         
