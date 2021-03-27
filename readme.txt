@@ -189,7 +189,18 @@
 202. Happy Number: https://leetcode.com/problems/happy-number/
   - math induction to reduct computing time
 
-203. 
+203. Remove Linked List Elements: https://leetcode.com/problems/remove-linked-list-elements/
+  - Naive, use dummy head; r.f. problem #83
+
+204. Count Primes: https://leetcode.com/problems/count-primes/
+  - Math: found all prime numbers or found all non-prime numbers
+  - Math (Eratosthenes sieve) is the most efficient: see https://www.geeksforgeeks.org/sieve-of-eratosthenes/
+
+205. Isomorphic Strings: https://leetcode.com/problems/isomorphic-strings/
+  - index matching: See https://leetcode.com/problems/isomorphic-strings/discuss/1126975/Python3-one-liner-with-index
+  - naive pattern matching with two dictionaries
+  - pattern matching with one dictionary: See https://leetcode.com/problems/isomorphic-strings/discuss/1119546/Python-faster-than-99.19
+  
 
 
 
