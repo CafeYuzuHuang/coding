@@ -202,5 +202,26 @@
   - pattern matching with one dictionary: See https://leetcode.com/problems/isomorphic-strings/discuss/1119546/Python-faster-than-99.19
   r.f. Problem 1 (Two Sum)
 
+206. Reverse Linked List: https://leetcode.com/problems/reverse-linked-list/
+  - Iterative: R.f. problem 141, 1st solution
+  - Recursive: see https://leetcode.com/problems/reverse-linked-list/solution/
+
+217. Contains Duplicate: https://leetcode.com/problems/contains-duplicate/
+  - sorting, followed by iterative search
+  - datatype conversion
+  - hash table
+  
+225. Implement Stack using Queues: https://leetcode.com/problems/implement-stack-using-queues/
+  - single queue solution, use pop(-1) and insert(0,) to behave like push from 0-index
+  - two queues solution, use pop(-1) and append() (or insert(-1,)) to behave like push from 0-index
+
+226. Invert Binary Tree: https://leetcode.com/problems/invert-binary-tree/
+  - recursive / DFS: time complexity O(n), space complexity O(h) ~ O(n)
+  - iterative: See https://leetcode.com/problems/invert-binary-tree/solution/
+
+228. Summary Ranges: https://leetcode.com/problems/summary-ranges/
+  - 
+
+
 
 
