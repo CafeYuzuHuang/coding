@@ -220,8 +220,18 @@
   - iterative: See https://leetcode.com/problems/invert-binary-tree/solution/
 
 228. Summary Ranges: https://leetcode.com/problems/summary-ranges/
-  - 
+  - iterative, one-pass and naive
 
+231. Power of Two: https://leetcode.com/problems/power-of-two/
+  - iterarive or recursive method may be used, but not necessary
+  - datatype conversion or bit operation
 
+232. Implement Queue using Stacks: https://leetcode.com/problems/implement-queue-using-stacks/
+  - naive / two-stack solution: O(n) in push operation, O(1) in pop operation
+  Amortized O(1) time complexity for both pop and push: see approach #2 https://leetcode.com/problems/implement-queue-using-stacks/solution/
+
+234. Palindrome Linked List: https://leetcode.com/problems/palindrome-linked-list/
+  - fast-and-slow pointers / list reversion: time O(n), space (1)
+  See: https://medium.com/@ChYuan/leetcode-no-234-palindrome-linked-list-%E5%BF%83%E5%BE%97-easy-58518af31fb
 
 
