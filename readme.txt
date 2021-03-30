@@ -184,6 +184,7 @@
 
 196 and 197 are MySQL query problems:
 196. Delete Duplicate Emails: https://leetcode.com/problems/delete-duplicate-emails/
+  Posted as: https://leetcode.com/problems/delete-duplicate-emails/discuss/1128063/Delete-Duplicate-Emails-faster-than-97
 197. Rising Temperature: https://leetcode.com/problems/rising-temperature/
 
 202. Happy Number: https://leetcode.com/problems/happy-number/
@@ -235,6 +236,21 @@
   See: https://medium.com/@ChYuan/leetcode-no-234-palindrome-linked-list-%E5%BF%83%E5%BE%97-easy-58518af31fb
   More beautiful way: https://leetcode.com/problems/palindrome-linked-list/discuss/1115409/Python-Iteration
 
-235	Lowest Common Ancestor of a Binary Search Tree: 
+219. Contains Duplicate II: https://leetcode.com/problems/contains-duplicate-ii/
+  - hash table, O(n) time and space complexity
+
+235	Lowest Common Ancestor of a Binary Search Tree: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+  - recursion: See https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/solution/
+  - iterative: see above
+  
+237. Delete Node in a Linked List: https://leetcode.com/problems/delete-node-in-a-linked-list/
+  - see: https://leetcode.com/problems/delete-node-in-a-linked-list/solution/
+
+242. Valid Anagram: https://leetcode.com/problems/valid-anagram/
+  - hash table
+  - sorting
+  - recursion with replace (100% faster!)
+  Posted as: https://leetcode.com/problems/valid-anagram/discuss/1134022/Python-3-recursion-with-replace-100-faster
+
 
 
