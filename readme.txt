@@ -252,5 +252,15 @@
   - recursion with replace (100% faster!)
   Posted as: https://leetcode.com/problems/valid-anagram/discuss/1134022/Python-3-recursion-with-replace-100-faster
 
+257. Binary Tree Paths: https://leetcode.com/problems/binary-tree-paths/
+  - recursion
+
+258. Add Digits: https://leetcode.com/problems/add-digits/
+  - math operation for O(1) time complexity, see https://leetcode.com/problems/add-digits/solution/
+  (via mathematical induction or model solution known as mathenatical digit root)
+  
+263. Ugly Number: https://leetcode.com/problems/ugly-number/
+  - naive, iterative or recursive
+
 
 
