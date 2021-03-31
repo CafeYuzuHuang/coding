@@ -1,5 +1,7 @@
 索引：請使用 Ctrl+F 搜尋關鍵字
 
+<Easy>
+
 1. Two Sum: https://leetcode.com/problems/two-sum/
   - brute force: time O(N^2), space O(1) (unsorted) or O(N) (sorted)
   - double dictionary comprehension
@@ -261,6 +263,16 @@
   
 263. Ugly Number: https://leetcode.com/problems/ugly-number/
   - naive, iterative or recursive
+
+
+
+<Medium>
+
+2. Add Two Numbers: https://leetcode.com/problems/add-two-numbers/
+  - iterative, naive, time complexity and space complexity: O(max(m, n))
+
+3. Longest Substring Without Repeating Characters: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+  - iterative, hash table + slide window, both time and space complexity are O(n)
 
 
 
