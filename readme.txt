@@ -283,4 +283,11 @@
 6. ZigZag Conversion: https://leetcode.com/problems/zigzag-conversion/
   - See: https://leetcode.com/problems/zigzag-conversion/solution/
 
+8. String to Integer (atoi): https://leetcode.com/problems/string-to-integer-atoi/
+  - naive (scanning, iterative)
+
+11. Container With Most Water: https://leetcode.com/problems/container-with-most-water/
+  - brute force, time O(n^2), space O(1)
+  - two-pointer, time O(n), space O(1)
+
 
