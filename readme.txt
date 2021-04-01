@@ -274,5 +274,13 @@
 3. Longest Substring Without Repeating Characters: https://leetcode.com/problems/longest-substring-without-repeating-characters/
   - iterative, hash table + slide window, both time and space complexity are O(n)
 
+5. Longest Palindromic Substring: https://leetcode.com/problems/longest-palindromic-substring/
+  - dynamic programming, O(n^2) time complexity, O(n) space complexity
+  - brute force, O(n^3) time complexity (skipped)
+  - Manacher's algorithm: O(n) time complexity (skipped). 
+    See https://en.wikipedia.org/wiki/Longest_palindromic_substring#Manacher's_algorithm
+
+6. ZigZag Conversion: https://leetcode.com/problems/zigzag-conversion/
+  - See: https://leetcode.com/problems/zigzag-conversion/solution/
 
 
