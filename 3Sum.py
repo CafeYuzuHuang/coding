@@ -117,7 +117,7 @@ class Solution:
         # https://leetcode.com/problems/3sum/discuss/7653/Python-solution-.
         # https://docs.python.org/3/library/bisect.html
         # All though still O(n^2) time complexity, its iteration times is far less!
-        
+        """
         nums, res, n = sorted(nums), [], len(nums)
         for i in range(n-2):
             if nums[i] > 0: break
@@ -138,6 +138,43 @@ class Solution:
                 lo += sum <= 0 # if sum < 0, need larger lo
                 hi -= sum >= 0 # if sum > 0, need smaller hi
         return res
+        """
+        
+        # 8th solution: if bisect module is not used:
+        nums, res, n = sorted(nums), [], len(nums)
+        for i in range(n-2):
+            if nums[i] > 0: break
+            if i and nums[i] == nums[i-1]: continue
+            hi = n - 1
+            # binary search
+            # lo = bisect.bisect_left(nums, - nums[i] - nums[hi], i + 1, hi) - 1
+            lo = self.bisect(nums, -nums[i]-nums[hi], i+1, hi) - 1
+            lo += (lo == i)
+            # all possible values are bounded by lo and hi, then start checking
+            while lo < hi:
+                sum = nums[i] + nums[lo] + nums[hi]
+                if sum == 0:
+                    res += (nums[i], nums[lo], nums[hi]),
+                    while lo < hi and nums[lo] == nums[lo+1]: #remove duplicate
+                        lo += 1 
+                    while lo < hi and nums[hi] == nums[hi-1]: #remove duplicate
+                        hi -= 1
+                lo += sum <= 0 # if sum < 0, need larger lo
+                hi -= sum >= 0 # if sum > 0, need smaller hi
+        return res
+        
+    def bisect(self, nums, target, low, high):
+        # nums is sorted in ascent order
+        # low >= 0, high <= len(nums)-1 are gueranteed
+        left, right = low, high
+        while left <= right:
+            mid = (left + right) // 2
+            if nums[mid] == target: return mid
+            elif nums[mid] > target: right = mid - 1
+            elif nums[mid] < target: left = mid + 1
+        # crossed, i.e. left > right
+        return left
+        
         
         # 2nd solution: time limit exceeded
         # 3rd solution: 7392 ms (5%), 18.8 MB (10%)
@@ -145,4 +182,4 @@ class Solution:
         # 5th solution: 5932 ms (8%), 18.6 MB (14%)
         # 6th solution: 4072 ms (18%), 17.9 MB (31%)
         # 7th solution: 720 ms (87%), 17 MB (94%) !!!
-        
+        # 8th solution: 732 ms (86%), 17 MB (94%)
