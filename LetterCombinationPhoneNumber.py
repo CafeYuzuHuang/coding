@@ -55,14 +55,13 @@ class Solution:
                   '9': 'wxyz'}
         
         def backTrack(index, path):
-            # index as int, path as str
+            # index as int, path as list
             # index: current digit checking
             # path: current combination of letters we have
             
             # Case 1: finish examining all digits
             if len(path) == nd: # finished combination
-                res.append(''.join(path))
-                # res.append(path) # get all appended path = []
+                res.append(''.join(path)) # path = ['a', 'b', 'c'] -> res.append('abc')
                 return None
             
             # Case 2: examining digit-by-digit
@@ -70,8 +69,7 @@ class Solution:
             for t in tmp: # loop through all possible letters
                 path.append(t)
                 backTrack(index+1, path) # go to next digit with holding current letter(s)
-                path.pop() # remove current letter before go next 
-        
+                path.pop() # remove current (last) letter before go next 
         
         res = []
         backTrack(0, [])
