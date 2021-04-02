@@ -299,6 +299,11 @@
   - [Accepted] two-pointer with binary search: https://leetcode.com/problems/3sum/discuss/7653/Python-solution-.
 
 16. 3Sum Closest: https://leetcode.com/problems/3sum-closest/
-  - 
+  - two-pointer, time complexity O(n^2)
+  - binary search, time complexity O(n^2logn)
+  - hash table approach cannot be applied to this problem since the target sum is not specific.
+  r.f. https://leetcode.com/problems/3sum-closest/solution/
 
+17. Letter Combinations of a Phone Number: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+  - brute force, time complexity O(n*4^n), space complexity O(n)
 
