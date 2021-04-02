@@ -48,7 +48,7 @@ class Solution:
         ns, nt = len(s), len(t)
         if ns != nt: return False
         if ns == 0 and nt == 0: return True
-        elif ns == 0 or nt == 0: return False
+        # elif ns == 0 or nt == 0: return False # unecessary statement since ns != nt is gueranteed, 2021.04.02 commented by baranee18
         return self.isAnagram(s.replace(s[0], ''), t.replace(s[0], ''))
         
         # 1st solution: 60 ms (20%) and 14.3 MB (99%)
