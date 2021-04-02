@@ -290,4 +290,15 @@
   - brute force, time O(n^2), space O(1)
   - two-pointer, time O(n), space O(1)
 
+12. Integer to Roman: https://leetcode.com/problems/integer-to-roman/
+  - naive
+
+15. 3Sum: https://leetcode.com/problems/3sum/
+  - brute force, O(n^3) time complexity -> time limit exceeded
+  - sorting, followed by using hash table: O(nlogn) ~ O(n^2) time complexity, O(n) space complexity
+  - the accepted: https://leetcode.com/problems/3sum/discuss/7653/Python-solution-.
+
+16. 3Sum Closest: https://leetcode.com/problems/3sum-closest/
+  - 
+
 
