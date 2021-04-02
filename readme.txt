@@ -296,7 +296,7 @@
 15. 3Sum: https://leetcode.com/problems/3sum/
   - brute force, O(n^3) time complexity -> time limit exceeded
   - sorting, followed by using hash table: O(nlogn) ~ O(n^2) time complexity, O(n) space complexity
-  - the accepted: https://leetcode.com/problems/3sum/discuss/7653/Python-solution-.
+  - [Accepted] two-pointer with binary search: https://leetcode.com/problems/3sum/discuss/7653/Python-solution-.
 
 16. 3Sum Closest: https://leetcode.com/problems/3sum-closest/
   - 
