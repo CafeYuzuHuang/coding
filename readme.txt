@@ -305,7 +305,7 @@
   r.f. https://leetcode.com/problems/3sum-closest/solution/
 
 17. Letter Combinations of a Phone Number: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
-  - naive, brute force, time complexity O(n*4^n), space complexity O(n)
-  - back-tracking, brute force, same time and space complexity as above.
+  - naive, iterative, brute force; time complexity O(n*4^n), space complexity O(n)
+  - back-tracking, recursive, brute force; same time and space complexity as above.
   See https://leetcode.com/problems/letter-combinations-of-a-phone-number/solution/
 
