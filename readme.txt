@@ -249,10 +249,11 @@
   - see: https://leetcode.com/problems/delete-node-in-a-linked-list/solution/
 
 242. Valid Anagram: https://leetcode.com/problems/valid-anagram/
-  - hash table
-  - sorting
-  - recursion with replace (100% faster!)
+  - hash table --> time O(n), space O(1)
+  - sorting --> time O(nlogn), space O(1)
+  - recursion with replace (100% faster!) --> time O(n), space O(n)
   Posted as: https://leetcode.com/problems/valid-anagram/discuss/1134022/Python-3-recursion-with-replace-100-faster
+  The discussion of time complexity is below the solution code.
 
 257. Binary Tree Paths: https://leetcode.com/problems/binary-tree-paths/
   - recursion
