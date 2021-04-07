@@ -135,6 +135,64 @@ class Solution:
         elif ret_mode == 'right': return right
         else: return -1
         
+        
+        
+        # 19th solution: 
+        # (1) Judge if even or odd:
+        # odd + odd & even + even = even
+        # odd + even = odd
+        # (2) Judge if unique:
+        # If a1 + a2 = a3 + a4 = 2 -> target != 2
+        # any element value will not appear more than twice
+        # if a1 = a2 = a3 -> answer is not unique
+        # if a1 = a2 -> only check if a1 + a2 = target
+        
+        """
+        # a + b = target -> return index list [ia, ib]
+        if target % 2 == 0:
+            try: # A chance to solve it with O(1)
+                halfTarget = target//2
+                ia = nums.index(halfTarget)
+                ib = nums.index(halfTarget, ia+1)
+                return [ia, ib]
+            except: 
+                pass
+        # Ensure a != b for a + b = target
+        # If element ai is duplicated
+        # -> ai and target - ai can be dropped out
+        from collections import Counter
+        rec = Counter(nums)
+        for k, v in rec.items():
+            if v == 1 and rec[target-k] == 1 and target-k != k: 
+                return [nums.index(k), nums.index(target-k)]
+        return [-1, -1] # solution not found
+        """
+        
+        # 21th solution:
+        # a + b = target -> return index list [ia, ib]
+        """
+        if target % 2 == 0:
+            try: # A chance to solve it with O(1)
+                halfTarget = target//2
+                ia = nums.index(halfTarget)
+                ib = nums.index(halfTarget, ia+1)
+                return [ia, ib]
+            except: 
+                pass
+        # Ensure a != b for a + b = target
+        # If element ai is duplicated
+        # -> ai and target - ai can be dropped out
+        rec = {}
+        for n in set(nums):
+            try:
+                tmp = rec[n]
+                return [nums.index(n), nums.index(tmp)] # O(logn)
+            except:
+                rec[target-n] = n
+        return [-1, -1] # solution not found
+        """
+                
+        
         # 1st solution: 40 ms (95%), 14.2 MB (90%)
         # 2nd solution: 48 ms (58%), 14.5 MB (11%)
         # 3rd solution: 60 ms (9%), 14.5 MB (44%)
@@ -147,3 +205,7 @@ class Solution:
         # 11th solution: 44 ms (82%), 14.5 MB (44%)
         # 12th solution: 48 ms (58%), 14.3 MB (90%)
         # 13th solution: 56 ms (10%), 14.4 MB (72%)
+        # ...
+        # 19th: 40 ms (95%), 14.6 MB (11%)
+        # 21th: 44 ms (82%), 14.6 MB (11%)
+        
