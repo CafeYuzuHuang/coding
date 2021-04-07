@@ -9,6 +9,7 @@
   4/7 added:
   - binary search with linear scan: time O(NlogN) (sorting) and space O(N)
   - two-pointer approach: time O(NlogN) (sorting) and space O(N)
+  Posted as: https://leetcode.com/problems/two-sum/discuss/1146543/python-3-solutions-comparison-with-discussion-fastest-beats-95
   
 7. Reverse Integer: https://leetcode.com/problems/reverse-integer/
   - naive: time O(N)
