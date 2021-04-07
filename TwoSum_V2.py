@@ -98,8 +98,7 @@ class Solution:
         """
         n = len(nums)
         nums_sorted = sorted(nums) # in ascenting order
-        t = self.bisect(nums_sorted, target, 0, n-1, ret_mode = 'left')
-        if t > n-1: t = n-1
+        t = self.bisect(nums_sorted, target, 0, n-1, ret_mode = 'right') # target > min(nums)
         for i, c in enumerate(nums_sorted[:-1]):
             tmp = target - c
             if tmp > target:
