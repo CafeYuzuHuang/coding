@@ -23,7 +23,7 @@
   - time O(logN) and space O(1) see: https://leetcode.com/problems/palindrome-number/solution/
   4/7 revisited:
   - reversed string and linear search: time O(n), space O(n) where n = log10x is # of digits
-  - divide-and-conquer: time O(n), space O(n)
+  - one-line string match: time O(n) and space O(n) but more efficient
   
 13. Roman to Integer: https://leetcode.com/problems/roman-to-integer/
   - naive: time O(N), space O(1)
