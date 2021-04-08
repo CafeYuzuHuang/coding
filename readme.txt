@@ -6,7 +6,7 @@
   - brute force: time O(N^2), space O(1) (unsorted) or O(N) (sorted)
   - double dictionary comprehension
   - single dictionary comprehension: time O(N) (rarely O(N^2)) and space O(N)
-  4/7 revisited:
+  ** revisited:
   - binary search with linear scan: time O(NlogN) (sorting) and space O(N)
   - two-pointer approach: time O(NlogN) (sorting) and space O(N)
   Posted as: https://leetcode.com/problems/two-sum/discuss/1146543/python-3-solutions-comparison-with-discussion-fastest-beats-95
@@ -14,24 +14,26 @@
 7. Reverse Integer: https://leetcode.com/problems/reverse-integer/
   - naive: time O(N)
   - pop-and-push: time O(logN) see: https://leetcode.com/problems/reverse-integer/solution/
-  4/7 revisited:
+  ** revisited:
   - pop-and-push: time O(nlogn) where n = log10x is # of digits, space O(n)
   - reversed string and linear search: time O(n), space O(n)
   
 9. Palindrome Number: https://leetcode.com/problems/palindrome-number/
   - naive: time O(N), with try-except to boost up
   - time O(logN) and space O(1) see: https://leetcode.com/problems/palindrome-number/solution/
-  4/7 revisited:
+  ** revisited:
   - reversed string and linear search: time O(n), space O(n) where n = log10x is # of digits
   - one-line string match: time O(n) and space O(n) but more efficient
   
 13. Roman to Integer: https://leetcode.com/problems/roman-to-integer/
   - naive: time O(N), space O(1)
+  ** revisited: simplified solution available
   
 14. Longest Common Prefix: https://leetcode.com/problems/longest-common-prefix/
   - naive (horizontal scanning): time O(N^2) in the worst case
   - recursive (vertical scanning): time O(N^2) in the worst case
   - divide-and-conquer, binary search, etc.: https://leetcode.com/problems/longest-common-prefix/solution/
+  ** revisited: modified above solutions
   
 20. Valid Parentheses: https://leetcode.com/problems/valid-parentheses/
   - stacking method with edge case screening: time O(N), space O(N)
@@ -43,6 +45,8 @@
 26. Remove Duplicates From Sorted Array: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
   - naive: time O(N)
   - cheated via datatype conversion: faster than naive
+  ** revisited: 
+  - two-pointer method, r.f. solution: https://leetcode.com/problems/remove-duplicates-from-sorted-array/solution/
   
 27. Remove Element: https://leetcode.com/problems/remove-element/
   - naive (Use remove method): time O(N)
