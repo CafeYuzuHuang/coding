@@ -54,6 +54,7 @@
   
 28. Implement str Str(): https://leetcode.com/problems/implement-strstr/
   - naive, time O(N)
+  ** revisited: prettify the code
   
 35. Search Insert Position: https://leetcode.com/problems/search-insert-position/
   - binary search (standard & variation), time O(logN), space O(1)
@@ -66,6 +67,9 @@
   - naive: use split method
   - reverse iteration
   - forward generator
+  ** revisited:
+  - reverse iteration
+  - forward iteration
 
 66. Plus one: https://leetcode.com/problems/plus-one/
   - naive: use dtype conversion and mathematical operation, O(N) time complexity
