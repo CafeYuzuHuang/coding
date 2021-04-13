@@ -328,3 +328,14 @@
   - back-tracking, recursive, brute force; same time and space complexity as above.
   See https://leetcode.com/problems/letter-combinations-of-a-phone-number/solution/
 
+18. 4Sum: https://leetcode.com/problems/4sum/
+  - hash set, recursive, time complexity O(n^3), space O(n). See https://leetcode.com/problems/4sum/solution/
+  - two pointer, see https://leetcode.com/problems/4sum/solution/
+  - iterative, combine two-pointer and bisection
+  -> O(n^2logn) fails, O(n^3logn) required (rewinding one of the two pointers)
+
+19. Remove Nth Node From End of List: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+  - two pass: https://leetcode.com/problems/remove-nth-node-from-end-of-list/solution/
+  - one pass: https://leetcode.com/problems/remove-nth-node-from-end-of-list/solution/
+
+
