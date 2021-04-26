@@ -283,6 +283,12 @@
 263. Ugly Number: https://leetcode.com/problems/ugly-number/
   - naive, iterative or recursive
 
+268. Missing Number: https://leetcode.com/problems/missing-number/
+  - model solution: time O(n), space O(1)
+  - bit manipulation: time O(n), space O(1), see https://leetcode.com/problems/missing-number/solution/
+
+278. First Bad Version: https://leetcode.com/problems/first-bad-version/
+  - binary search: time O(logn), space O(1)
 
 
 <Medium>
