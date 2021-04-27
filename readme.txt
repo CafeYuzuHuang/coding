@@ -344,4 +344,15 @@
   - two pass: https://leetcode.com/problems/remove-nth-node-from-end-of-list/solution/
   - one pass: https://leetcode.com/problems/remove-nth-node-from-end-of-list/solution/
 
+22. Generate Parentheses: https://leetcode.com/problems/generate-parentheses/
+  - brute force
+  - back-track
+  - iterative
+  For the approaches above, see: https://leetcode.com/problems/generate-parentheses/solution/
+
+24. Swap Nodes in Pairs: https://leetcode.com/problems/swap-nodes-in-pairs/
+  - iterative, forward; see: https://skyyen999.gitbooks.io/-leetcode-with-javascript/content/questions/24md.html
+
+
+
 
