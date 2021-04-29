@@ -353,6 +353,12 @@
 24. Swap Nodes in Pairs: https://leetcode.com/problems/swap-nodes-in-pairs/
   - iterative, forward; see: https://skyyen999.gitbooks.io/-leetcode-with-javascript/content/questions/24md.html
 
+29. Divide Two Integers: https://leetcode.com/problems/divide-two-integers/
+  - bitwise operation: see https://knightzone.studio/2018/10/24/3944/leetcode%EF%BC%9A29-divide-two-integers/
+  and https://leetcode.com/problems/divide-two-integers/discuss/1084803/Python-bitwise
+
+31. Next Permutation: https://leetcode.com/problems/next-permutation/
+  - single pass, see https://leetcode.com/problems/next-permutation/solution/
 
 
 
