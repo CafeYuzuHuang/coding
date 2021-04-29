@@ -28,6 +28,7 @@ class Solution:
         """
         
         # 3rd solution: optimized?
+        # see https://leetcode.com/problems/divide-two-integers/discuss/1084803/Python-bitwise
         
         negsign = True if (dividend < 0) != (divisor < 0) else False
         a, b, res = abs(dividend), abs(divisor), 0
